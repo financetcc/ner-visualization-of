@@ -177,6 +177,10 @@ def index():
 def sobre():    
     return render_template('layouts/sobre.html')
 
+@app.route("/about", methods=["GET"])
+def about():
+    return render_template('layouts/about.html')
+
 
 if __name__ == '__main__':
     # Threaded option to enable multiple instances for multiple user access support

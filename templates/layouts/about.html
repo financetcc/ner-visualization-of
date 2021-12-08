@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance - Sobre</title>
+    <link href="/static/css/about/style.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="../static/images/Logo-Finance-Minimslist.ico">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+    <div class="menu-wrapper">
+        <div class="img-logo-wrapper">
+            <img class="logo" src='../static/images/Logo-Finance.png'>
+        </div>
+        <div class="menu-options">
+            <a href="/" class="menu-option">HOME</a>
+            <a href="/about.html" class="menu-option">SOBRE NÓS</a>
+        </div>
+    </div>
+    <div class="content-wrapper">
+        <div class="img-wrapper">
+            <img src="../static/images/Building Sign Mockup.png" class="img-mockup">
+        </div>
+        <div class="txt-content">
+            <div class="txt-wrapper">
+                <hr class="line">
+                <div class="title">Visão Geral do projeto</div>
+                <div class="btn-wrapper">
+                    <span class="btn-show" onclick="showText1()" id="deg1">+</span>
+                </div>
+                <div class="txt" id="text1">
+                    O projeto Finance tem o objetivo de Identificar automaticamente o relato da experiência
+                    de Clientes com produtos de instituições bancárias no Twitter por meio da aplicação de
+                    técnicas de Inteligência Artificial.
+                    Foram classificados manualmente 4.374 tweets relacionados a produtos oferecidos por bancos e
+                    respectivas manifestações de clientes. Estes tweets foram utilizados para o treinamento de um
+                    classificador baseado em cálculos probabilísticos. Um grafo com os resultados da classificação e
+                    conexões oriundas da rede social foi construído e apresentado por meio de um sítio eletrônico.
+                    As técnicas de Inteligência Artificial relacionadas ao reconhecimento de entidades em redes sociais
+                    presentadas neste artigo são promissoras e alcançaram níveis de precisão e revocação satisfatórios.
+                </div>
+            </div>
+            <div class="txt-wrapper">
+                <hr class="line">
+                <div class="title">Objetivos</div>
+                <div class="btn-wrapper">
+                    <span class="btn-show" id="deg2" onclick="showText2()">+</span>
+                </div>
+                <div class="txt" id="text2">
+                    <ul class="goals-list">
+                        <li>
+                            Objetivo específico 1: Criar um mecanismo automático de coleta e armazenamento de dados não
+                            estruturados.
+                        </li>
+                        <li>
+                            Objetivo específico 2: Construir um algoritmo para identificação de entidades nomeadas a
+                            partir
+                            de técnicas de Inteligência Artificial.
+                        </li>
+                        <li>
+                            Objetivo específico 3: Criar um painel de visualização de dados com filtragens avançadas.
+                        </li>
+                        <li>
+                            Objetivo específico 4: Realizar testes contínuos para aperfeiçoamento da IA.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="txt-wrapper">
+                <hr class="line">
+                <div class="title">Códigos do projeto</div>
+                <div class="btn-wrapper">
+                    <span class="btn-show" id="deg3" onclick="showText3()">+</span>
+                </div>
+                <div class="txt" id="text3">
+                    <ul class="links-list">
+                        <li>
+                            <a href="https://github.com/financetcc/dumpTweets" class="link-code">Code Stream Tweets</a>
+                        </li>
+                        <li>
+                            <a href="https://colab.research.google.com/drive/1xYLrw8VZKtZydhO2ROy5cSl0ymULMVcU?usp=sharing"
+                                class="link-code">Pré-processamento de postagens</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/financetcc/exportdoccano/blob/main/finance_3700.jsonl"
+                                class="link-code">Exportação de dados em formato JSON</a>
+                        </li>
+                        <li>
+                            <a href="https://colab.research.google.com/drive/1H9OmQTtiMH4b9G4JqgdkjaaV-Z1HWb6O?usp=sharing"
+                                class="link-code">Treinamento do classificador</a>
+                        </li>
+                        <li>
+                            <a href="https://colab.research.google.com/drive/1e_YvVmA6ISHJ5_L9Czd-MUiDMOwo2d3O?usp=sharing"
+                                class="link-code">Classificador</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="line">
+            </div>
+        </div>
+        <div class="members-wrapper">
+            <div class="members-content">
+                <div class="title-members">Participantes do projeto</div>
+                <div class="members">
+                    <div class="member-img">
+                        <img src="../static/images/perfil.jpeg" alt="" class="img-file">
+                    </div>
+                    <span class="name-member">Iago</span>
+                </div>
+                <div class="members">
+                    <div class="member-img">
+                        <img src="../static/images/vini.jpg" alt="" class="img-file">
+                    </div>
+                    <span class="name-member">Vinicius</span>
+                </div>
+                <div class="members">
+                    <div class="member-img">
+                        <img src="../static/images/vitao.jpeg" alt="" class="img-file">
+                    </div>
+                    <span class="name-member">Victor</span>
+                </div>
+                <div class="members">
+                    <div class="member-img">
+                        <img src="../static/images/fabio.jpeg" alt="" class="img-file">
+                    </div>
+                    <span class="name-member">Fábio</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-wrapper">
+        <div class="footer-content">
+            <div class="footer-links">
+                <div class="svg"><i data-feather="github"></i></div>
+                <a href="https://github.com/financetcc" class="text">GitHub</a>
+            </div>
+            <div class="footer-links">
+                <div class="svg"><i data-feather="globe"></i></div>
+                <a href="https://github.com/financetcc" class="text">IFSP</a>
+            </div>
+            <div class="footer-links">
+                <div class="svg"><i data-feather="linkedin"></i></div>
+                <a href="https://github.com/financetcc" class="text">Linkedin</a>
+            </div>
+            <div class="footer-links">
+                <div class="svg"><i data-feather="inbox"></i></div>
+                <a href="https://github.com/financetcc" class="text">E-mail</a>
+            </div>
+        </div>
+        <div class="text-address-wrapper">
+            <span class="address">IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São
+                Paulo/SP - Contato: (011) 2504-0100</span>
+        </div>
+    </div>
+
+
+
+    <script>
+        feather.replace()
+        var x = document.getElementById("text1");
+        var y = document.getElementById("text2");
+        var z = document.getElementById("text3");
+        x.style.display = "none";
+        y.style.display = "none";
+        z.style.display = "none";
+
+        var a = document.getElementById("deg1");
+        var b = document.getElementById("deg2");
+        var c = document.getElementById("deg3");
+
+        function showText1() {
+            if (x.style.display === "none") {
+                x.style.display = "block";
+                y.style.display = "none";
+                z.style.display = "none";
+                a.style.transform = "rotate(45deg)";
+            } else {
+                x.style.display = "none";
+                a.style.transform = "rotate(0deg)";
+            }
+        }
+        function showText2() {
+            var y = document.getElementById("text2");
+            if (y.style.display === "none") {
+                y.style.display = "block";
+                x.style.display = "none";
+                z.style.display = "none";
+                b.style.transform = "rotate(45deg)";
+            } else {
+                y.style.display = "none";
+                b.style.transform = "rotate(0deg)";
+            }
+        }
+        function showText3() {
+            var z = document.getElementById("text3");
+            if (z.style.display === "none") {
+                z.style.display = "block";
+                x.style.display = "none";
+                y.style.display = "none";
+                c.style.transform = "rotate(45deg)";
+            } else {
+                z.style.display = "none";
+                c.style.transform = "rotate(0deg)";
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
